@@ -7,5 +7,26 @@
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Datalist</h1>
+
+    <!-- General List select -->
+    <label for="favLanguage">Favrioute Programming Languages</label>
+    <input list="languages" id="favLanguage" name="favLanguage">
+    <datalist id = "languages">
+      <option value="JavaScript"></option>
+      <option value="PHP"></option>
+      <option value="C++"></option>
+      <option value="Python"></option>
+      <option value="C#"></option>
+    </datalist>
+
+
+    <!-- TIme -->
+     <input type="time" list="popularHours">
+     <data id="popularHours">
+      <option value="10:00"></option>
+      <option value="12:00"></option>
+      <option value="20:00"></option>
+      <option value="23:00"></option>
+     </data>
   </body>
 </html>
