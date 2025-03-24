@@ -13,4 +13,25 @@ body {
   max-width: 400px;
   margin: 20px;
   padding: 20px;
+  border: 2px solid black;
+
+  /* Same as above */
+  /* border-width: 2px;
+  border-style: dashed;
+  border-color: red; */
 }
+
+
+.box-1 {
+  /* border-width: 3px;
+  border-color: blue; */
+
+  /* border-top: solid blue 4px; */
+
+  /* add round shape around corner */
+  /* border-radius: 10px; */
+
+  border-top-left-radius: 10px;
+}
+
+

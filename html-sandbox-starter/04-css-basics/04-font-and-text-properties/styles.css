@@ -1,0 +1,18 @@
+body{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    /* mulplier of whatever root px is  */
+}
+
+h2{
+    font-size: 3rem;
+    font-size: x-large;
+    /* font-size: medium; */
+    /* font-weight: 400; */
+
+    font-weight: 700;
+    /* font-style: normal; */
+    /* font-variant: small-caps; */
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}

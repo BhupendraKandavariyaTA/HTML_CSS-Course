@@ -1,3 +1,22 @@
 body {
   font-family: Arial, sans-serif;
+  /* background: rgb(255,0,0); */
+  /* background-color: #ffffff; */
+}
+
+/* color names */
+
+.sporty{
+  color: red;
+}
+
+/* Hex Values */
+
+.casual{
+  color: #ffffff;
+}
+
+.card{
+  /* RGBA */
+  background-color: rgba(0, 0, 0, 0.5);
 }
